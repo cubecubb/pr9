@@ -6,13 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <RadioButton
+        android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text=""
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="194dp" />
 
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="439dp"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/redrose"
+        android:text="New aromat"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textFontWeight="400"
+        android:textSize="48px"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/redrose"
+        android:text="Выбери свой аромат"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="40px"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбери одну категорию"
+        android:textAlignment="center"
+        android:textFontWeight="800"
+        android:textSize="28px"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/redrose"
+        android:text="8-954-852-00-00"
+        android:textColor="@color/black"
+        android:textFontWeight="800"
+        android:textSize="36px"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EACCA8"
+        android:fontFamily="@font/redrose"
+        android:text="Показать результаты"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="194dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
